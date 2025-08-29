@@ -1,0 +1,25 @@
+{
+  "name": "object_counting_project",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mongo.db"
+  ],
+  "homepage": "https://github.com/nitin0461-choudhary/Object_counter#readme",
+  "bugs": {
+    "url": "https://github.com/nitin0461-choudhary/Object_counter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitin0461-choudhary/Object_counter.git"
+  },
+  "license": "ISC",
+  "author": "Nitin Choudhary",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
