@@ -1,0 +1,17 @@
+/* * { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial; }
+input, button { display: block; margin: 6px 0; padding: 8px; } */
+/* Minimal dark theme utility */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: #09090b; /* zinc-950 */
+  color: #e4e4e7;      /* zinc-200 */
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+}
+input, select, button, textarea { background: #18181b; color: #e4e4e7; }
+a { color: #60a5fa; text-decoration: none; }
+a.underline { text-decoration: underline; }
+.border { border: 1px solid #3f3f46; }
+.rounded { border-radius: 0.375rem; }
