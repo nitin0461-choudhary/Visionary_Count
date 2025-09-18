@@ -1,4 +1,11 @@
 # Logs
+# Ignore big files
+*.weights
+*.mp4
+
+# Ignore dependencies
+node_modules/
+
 logs
 *.log
 npm-debug.log*

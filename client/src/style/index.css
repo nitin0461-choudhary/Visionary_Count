@@ -1,5 +1,20 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html, body, #root { height: 100%; } */
+@import "tailwindcss";
+
+/* little global polish */
 html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: #f8fafc;   /* slate-50 */
+  color: #0f172a;        /* slate-900 */
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+/* optional helpers */
+.container { max-width: 72rem; margin-inline: auto; padding-inline: 1rem; }
+.card { background:#fff; border:1px solid #e5e7eb; border-radius:1rem; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+
